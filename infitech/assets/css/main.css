@@ -2237,7 +2237,7 @@ span {
 }
 
 .seo-card {
-    background: #ffffff;
+    background: #C0E8F9;
     padding: 40px 30px;
     border-radius: 25px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.05);
@@ -2270,7 +2270,7 @@ span {
 /* BLUE CENTER CARD */
 
 .blue-card {
-    background: linear-gradient(135deg, #A2A77F, #FF8811);
+    background: linear-gradient(135deg, #533745, #CE7B91);
 }
 
 .blue-card .seo-big-number {
