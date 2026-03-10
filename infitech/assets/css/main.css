@@ -10220,36 +10220,6 @@ span {
   position: relative;
   z-index: 9;
 }
-.pricing-box-items .nexella-hover-bx {
-  background: var(--theme);
-  height: 100%;
-  top: 0;
-  opacity: 0;
-  position: absolute;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-  width: 25%;
-  z-index: -1;
-}
-.pricing-box-items .hover-bx {
-  left: 0;
-  -webkit-transition-delay: 0.105s;
-  transition-delay: 0.105s;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-.pricing-box-items .hover-bx2 {
-  left: 25%;
-  -webkit-transition-delay: 0.105s;
-  transition-delay: 0.105s;
-}
-.pricing-box-items .hover-bx3 {
-  left: 50%;
-  -webkit-transition-delay: 0.105s;
-  transition-delay: 0.105s;
-}
 .pricing-box-items .hover-bx4 {
   left: 75%;
   -webkit-transition-delay: 0s;
