@@ -2744,6 +2744,22 @@ span {
     margin-top: 25px;
   }
 }
+
+@media (max-width: 991px) {
+    /* 1. Target the parent row of the "Results That Compound" section */
+    /* Note: You may need to add a custom class like 'results-section' to this row in your HTML */
+    .row.results-section { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 2. Target the column containing the image */
+    .row.results-section .col-lg-6:last-child {
+        order: -1; /* This moves the image to the top */
+        margin-bottom: 30px; /* Adds space between image and text */
+    }
+}
+
 .about-wrapper-3 .about-image {
   margin-top: 60px;
   border-radius: 10px;
