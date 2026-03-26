@@ -2505,7 +2505,15 @@ span {
         height: 100px;
     }
 }
-
+@media (max-width: 767px) {
+    .logo-img img {
+        /* Adjust this percentage or pixel value to your liking */
+        max-height: 20px !important; 
+        width: auto;
+        /* This ensures it stays vertically centered if your header has flexbox */
+        display: block; 
+    }
+}
 @media (max-width: 767px) {
     .circle-card {
         padding: 40px 20px;
@@ -4359,9 +4367,8 @@ span {
 }
 
 .contact-wrapper-inner {
-  width: 50%;
+  width: 100%;
   border-radius: 10px;
-  background: var(--white);
   margin-top: 30px;
 }
 @media (max-width: 1199px) {
@@ -4410,7 +4417,7 @@ span {
   font-size: 18px;
 }
 .contact-wrapper-inner .contact-left-items .icon-item h3 a {
-  color: var(--header);
+  color: var(--white);
 }
 .contact-wrapper-inner .contact-left-items .icon-item h6 {
   font-weight: 500;
