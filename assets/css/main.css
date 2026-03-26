@@ -4359,23 +4359,24 @@ span {
 }
 
 .contact-wrapper-inner {
+  width: 50%;
   border-radius: 10px;
   background: var(--white);
-  padding: 80px 60px;
+  margin-top: 30px;
 }
 @media (max-width: 1199px) {
   .contact-wrapper-inner {
-    padding: 50px;
+    margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
   .contact-wrapper-inner {
-    padding: 40px 30px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 575px) {
   .contact-wrapper-inner {
-    padding: 30px;
+    margin-top: 30px;
   }
 }
 .contact-wrapper-inner .contact-left-items p {
@@ -4387,8 +4388,6 @@ span {
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(2, 6, 10, 0.12);
 }
 .contact-wrapper-inner .contact-left-items .icon-item.style-2 {
   border-bottom: none;
