@@ -168,7 +168,6 @@ h3 {
   font-size: 24px;
   font-weight: 600;
   line-height: 133%;
-  text-transform: capitalize;
 }
 @media (max-width: 575px) {
   h3 {
@@ -16522,7 +16521,7 @@ span {
     justify-content: space-between !important;
     align-items: center !important;
     min-height: 60px !important; /* Forces the bar to be tall enough to see text */
-    padding: 10px 20px !important; /* Adds inner spacing */
+    padding: 50px 70px 50px 50px !important; /* Adds inner spacing */
     background: transparent !important; /* Ensures no weird overlaps */
 }
 
@@ -16545,7 +16544,7 @@ span {
 .footer-bottom-wrapper .footer-list li, 
 .footer-bottom-wrapper .footer-list li a {
     color: #ffffff !important; /* Forces links to white */
-    font-size: 14px !important;
+    font-size: 16px !important;
     opacity: 1 !important;
     text-decoration: none !important;
 }
