@@ -1983,6 +1983,7 @@ span {
 .footer-widget-wrapper.style-5 .footer-top-content .theme-btn {
   margin-top: 30px;
 }
+
 .footer-bottom-wrapper {
     text-align: center;
 }
@@ -1993,6 +1994,7 @@ span {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 30px 0;
 }
+
 @media (max-width: 767px) {
   .footer-bottom-wrapper {
     flex-wrap: wrap;
@@ -2225,7 +2227,7 @@ span {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -8686,7 +8688,7 @@ span {
 }
 @media (max-width: 575px) {
   .hero-area-one .hero-wrapper .hero-section-title h1 {
-    font-size: 39px;
+    font-size: 37px;
   }
 }
 .hero-area-one .hero-wrapper .hero-section-title .title {
@@ -16513,3 +16515,43 @@ span {
 .testimonial-wrapper-7 .testimonial-left .client-img .content p {
   font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
+/* Container alignment */
+/* Ensure the text is visible, white, and centered within the bar */
+.footer-bottom-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    min-height: 60px !important; /* Forces the bar to be tall enough to see text */
+    padding: 10px 20px !important; /* Adds inner spacing */
+    background: transparent !important; /* Ensures no weird overlaps */
+}
+
+/* Fix Copyright Text Visibility */
+.footer-bottom-wrapper p {
+    color: #ffffff !important; /* Forces text to white */
+    font-size: 14px !important;
+    opacity: 1 !important; /* Ensures it isn't faded out */
+    margin: 0 !important;
+}
+
+/* Fix Privacy/T&C Links Visibility */
+.footer-bottom-wrapper .footer-list {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important;
+    margin: 0 !important;
+}
+
+.footer-bottom-wrapper .footer-list li, 
+.footer-bottom-wrapper .footer-list li a {
+    color: #ffffff !important; /* Forces links to white */
+    font-size: 14px !important;
+    opacity: 1 !important;
+    text-decoration: none !important;
+}
+
+/* Optional: Add a slight hover effect so you know they are clickable */
+.footer-bottom-wrapper .footer-list li a:hover {
+    color: #EFEDE5 !important; 
+    text-decoration: underline !important;
+}
